@@ -8,5 +8,4 @@ public class Main {
 		System.out.println("123");
 		System.out.println("6.500000");
 	}
-
 }
