@@ -24,7 +24,7 @@ public class Main {
 		int k = 1;
 		do {
 			System.out.print(k++ + " ");
-		}while(k<16);
+		}while(k < 16);
 		
 	}
 
