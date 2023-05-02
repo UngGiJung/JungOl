@@ -19,6 +19,7 @@ public class Main {
 //		//for 반복문을 활용한 풀이
 //		for (int i = 0; i < x.length; i++) {
 //			x[i] = sc.nextInt();
+//	}
 //			System.out.printf("%d",x[i]);
 		sc.close();
 		System.out.printf("%d",x[0]);
