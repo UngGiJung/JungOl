@@ -32,7 +32,13 @@ public class Main {
 		//for 반복문
 		for (int i = 0; i < x.length; i++) {
 			x[i] = i+1;
-			System.out.printf("%d",x[i]);
+//			System.out.printf("%d",x[i]);
+			
+		//마지막 자리 '?' 가리기
+			System.out.printf("%d", x[i]);
+			if (i < x.length - 1) {
+				System.out.printf("?");
+			}
 		}
 	}
 
