@@ -24,6 +24,7 @@ public class Main {
 //					a[j] = sc.nextInt();
 					System.out.print(a[j] + " ");
 				}
+				break;
 			}
 		}
 		sc.close();
