@@ -23,3 +23,13 @@ public class Main2 {
 	}
 
 }
+
+class Main {
+	
+	
+	//필드
+	String q = "name";
+	String w = "School";
+	String e = "Grade";
+	
+}
