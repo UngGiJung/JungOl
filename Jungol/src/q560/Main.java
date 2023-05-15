@@ -20,6 +20,6 @@ public class Main {
 		}
 		sc.close();
 		System.out.println(min);
-		//ddd
+		//ddddd
 	}
 }
