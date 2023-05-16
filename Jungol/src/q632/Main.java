@@ -1,4 +1,4 @@
-package q524;
+package q632;
 
 import java.util.Scanner;
 
@@ -9,12 +9,16 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-	
-		boolean c = (a+b != 0);
-		boolean d = (a*b != 0);
-				
-		System.out.print(d + " ");
-		System.out.print(c);
+		int c = sc.nextInt();
+		
+		int min;
+		min = a > b ? b : a;
+		min = min > c ? c : min;
+
 		sc.close();
-	}
+		
+		System.out.print(min);
+		
+ 	}
+
 }
