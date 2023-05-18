@@ -31,6 +31,7 @@ public class Main {
 		if (max == 0) {
 			max = 100;
 		}
+		sc.close();
 		System.out.print(max + " ");
 		System.out.print(min + " ");
 	}
