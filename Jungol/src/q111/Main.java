@@ -21,6 +21,6 @@ public class Main {
 		}
 		System.out.println("sum "+sum);
 		System.out.print("avg "+avg/a.length);
+		sc.close();
 	}
-
 }
