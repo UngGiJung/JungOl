@@ -3,50 +3,59 @@ package q196;
 import java.util.Scanner;
 
 public class Main {
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		String n = sc.nextLine();
-		String t = sc.nextLine();
-		String a = sc.nextLine();
-		sc.locale();
-		
+
 		String A[] = new String[3];
+		String I = null;
 
-		A[0] = n;
-		A[1] = t;
-		A[2] = a;
+
+			String n = sc.nextLine();
+			String t = sc.nextLine();
+			String a = sc.nextLine();
+
+			
+			System.out.println(n +" \n"+ t + " \n" + a);
+			sc.locale();
+			
+			A[0] = n;
+			A[1] = t;
+			A[2] = a;
+			
+
 		
-		String i;
-
 		if (A[0].charAt(0) < A[1].charAt(0)) {
-			System.out.println(n);
-			i = n;
-		} 
+			I = A[0];
+		}
 		if (A[1].charAt(0) < A[2].charAt(0)) {
-			System.out.println(t);
-			i = t;
+			I = A[1];
+			
 		} else {
-		System.out.println(a);
-			i = a;
-	}
-		Main2 f = new Main2();
-		f.person(i);
-}
-
-
-class Main2 {
-
-	String name;
-	String tel;
-	String addr;
-
-	void person(String n, String t, String a) {
-		
-		name = n;
-		tel = t;
-		addr = a;
+			I = A[2];
+			
+		}
 	}
 }
-}
+
+//	private static void person(String I) {
+//		
+//	}
+//
+//	class Main2 {
+//
+//		String name;
+//		String tel;
+//		String addr;
+//
+//		public String person(String q, String w, String e) {
+//
+//			name = q;
+//			tel = w;
+//			addr = e;
+//			
+//			return q+w+e;
+//		} 
+//	}
+//}
