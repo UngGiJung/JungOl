@@ -44,7 +44,7 @@ public class Main {
 			int height = sc.nextInt();
 
 			p[i] = new Person(name, height);
-
+ 
 		}
 		sc.close();
 
